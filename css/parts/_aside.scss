@@ -1,0 +1,53 @@
+.aside {
+  //!Название раздела
+  &__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: $dark;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+  //!aside меню
+
+  &-nav {
+    margin-bottom: 150px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 45px;
+  }
+
+  &__item {
+    margin-bottom: 8px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: $accent;
+  }
+
+  &__button {
+    .dark-arrow-right img{
+      margin-left: 12px;
+    }
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+}

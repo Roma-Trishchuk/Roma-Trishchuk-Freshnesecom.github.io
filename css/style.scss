@@ -1,14 +1,18 @@
 //!Переменные
 @import "parts/vars";
-
-//!Миксины
 @import "parts/mixins";
+
+//?Компоненты
+@import "components/section_title";
 
 //!Кнопки
 @import "parts/buttons";
 
 //!базовые стили
 @import "parts/basic";
+
+//!Стрелки
+@import "parts/arrows";
 
 //!шапка
 @import "parts/header";
@@ -25,5 +29,11 @@
 //!Card
 @import "parts/card";
 
+//!Popular
+@import "parts/populars";
+
 //!Blog
 @import "parts/blog-card";
+
+//!Footer
+@import "parts/footer";
